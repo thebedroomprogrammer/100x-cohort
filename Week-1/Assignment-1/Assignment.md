@@ -143,6 +143,8 @@
 
 **Task**: Create an image from a prompt and then generate a text description that accurately matches the produced image.
 
+### Image 1
+
 **Tool used**: [Playground](https://playground.com/)
 
 **Model**: Playground 2.5
@@ -154,5 +156,37 @@
 ![Reference image](boy-reverse.png)
 
 **Prompt**: "Pixar animated soft 3d character, Pixar 3d style, Closeup shot of a sweet cheerful boy with a big smile facing front, visible teeth, wearing a red puffy hoodie jacked charcoal grey undershirt, with a backpack with a black strap, brown messy hair, big brown expressive eyes, black background, intense flames in blurred background, face lit up by fire."
+
+**Negative prompt**: "ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude"
+
+### Image 2
+
+**Tool used**: [Playground](https://playground.com/)
+
+**Model**: Playground 2.5
+
+**Reference Image**
+![Reference image](noodles-ref.png)
+
+**Reverse Prompt Image**
+![Reference image](noodles-reverse.png)
+
+**Prompt**: "Top view shot, lots of white spaghetti with small green herbs on the spaghetti, served in a two-handled white ceramic bowl, a spoon placed inside the spaghetti, bowl is placed on a marble countertop"
+
+**Negative prompt**: "ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude"
+
+### Image 3
+
+**Tool used**: [Playground](https://playground.com/)
+
+**Model**: Playground 2.5
+
+**Reference Image**
+![Reference image](painting-ref.jpg)
+
+**Reverse Prompt Image**
+![Reference image](painting-reverse.png)
+
+**Prompt**: "japanese animated long shot of a couple holding hands and walking away from the shot. The boy is wearing a red jacket, the girl is wearing a light blue dress . Two snowclad Mountain peaks in the background, green pasture and flowers on both the sides with cherry blossom trees. Pink flowers on the side closer to the shot."
 
 **Negative prompt**: "ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude"
