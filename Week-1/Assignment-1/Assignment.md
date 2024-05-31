@@ -6,7 +6,21 @@
 
 **Tool used**: [Playground](https://playground.com/)
 
-**Prompt**: "A steampunk warrior wearing a crown with a red robe and an iron mace sitting on an iron throne in a castle courtyard."
+**Filter**: RealVis XL
+
+**Model**: Stable Diffusion XL
+
+**Prompt Guidance**: 7
+
+**Refinement**: 64
+
+**Seed**: 109099558
+
+**Sampler**: DPM++ 2M Karras
+
+**Prompt**: "King positioned on an iron throne, captured mid-preparation for warfare, armoured, sword grasped, adorned in a black and red robe, crowned, studio lighting enhancing the scene, ultra clear, dramatic lighting."
+
+**Negative Prompt**: "Ugly, deformed, noisy, blurry, distorted, crown, tiara, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude"
 
 ### Results
 
@@ -28,10 +42,10 @@
 
 ### Results
 
-| STRENGTH | RESULTS                            |
-| -------- | ---------------------------------- |
-| 20       | ![Strength 20](strength-20.jpeg)   |
-| 40       | ![Strength 40](strength-40.jpeg)   |
-| 60       | ![Strength 60](strength-60.jpeg)   |
-| 80       | ![Strength 80](strength-80.jpeg)   |
-| 100      | ![Strength 100](strength-100.jpeg) |
+| STRENGTH | RESULTS                           |
+| -------- | --------------------------------- |
+| 20       | ![Strength 20](strength-20.png)   |
+| 40       | ![Strength 40](strength-40.png)   |
+| 60       | ![Strength 60](strength-60.png)   |
+| 80       | ![Strength 80](strength-80.png)   |
+| 100      | ![Strength 100](strength-100.png) |
