@@ -138,3 +138,21 @@
 | 1     | ![depth 3](depth-1.png)   |
 | 1.5   | ![depth 3](depth-1.5.png) |
 | 2     | ![depth 3](depth-2.png)   |
+
+## Reverse Prompting
+
+**Task**: Create an image from a prompt and then generate a text description that accurately matches the produced image.
+
+**Tool used**: [Playground](https://playground.com/)
+
+**Model**: Playground 2.5
+
+**Reference Image**
+![Reference image](boy-ref.png)
+
+**Reverse Prompt Image**
+![Reference image](boy-reverse.png)
+
+**Prompt**: "Pixar animated soft 3d character, Pixar 3d style, Closeup shot of a sweet cheerful boy with a big smile facing front, visible teeth, wearing a red puffy hoodie jacked charcoal grey undershirt, with a backpack with a black strap, brown messy hair, big brown expressive eyes, black background, intense flames in blurred background, face lit up by fire."
+
+**Negative prompt**: "ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude"
