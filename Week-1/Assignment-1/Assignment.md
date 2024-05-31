@@ -38,7 +38,21 @@
 
 **Tool used**: [Playground](https://playground.com/)
 
-**Prompt**: "A Samurai standing with a katana in his hand, 90s cinema."
+**Filter**: RealVis XL
+
+**Model**: Stable Diffusion XL
+
+**Prompt Guidance**: 7
+
+**Refinement**: 64
+
+**Seed**: 327138681
+
+**Sampler**: DPM++ 2M Karras
+
+**Prompt**: "A marble sculpture standing in a garden."
+
+**Negative prompt**: "ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude"
 
 ### Results
 
