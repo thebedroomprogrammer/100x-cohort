@@ -103,7 +103,7 @@
 ### Edge
 
 **Reference Image**
-![Reference image](edge-ref.jpeg)
+![Reference image](edge-ref.jpg)
 
 **Prompt**: "Portrait of a steampunk sci-fi warrior wearing a gas mask in a destroyed city in the background."
 
