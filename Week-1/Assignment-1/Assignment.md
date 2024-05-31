@@ -99,3 +99,42 @@
 | 0.8    | ![Weight 0.8](weight-0.8.png) |
 | 1.2    | ![Weight 1.2](weight-1.2.png) |
 | 2      | ![Weight 2](weight-2.png)     |
+
+### Edge
+
+**Reference Image**
+![Reference image](edge-ref.jpeg)
+
+**Prompt**: "Portrait of a steampunk sci-fi warrior wearing a gas mask in a destroyed city in the background."
+
+**Negative prompt**: "ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude"
+
+### Results
+
+| EDGE | THRESHOLD | RESULTS                     |
+| ---- | --------- | --------------------------- |
+| 0.2  | 139       | ![edge 1](edge-0.2-139.png) |
+| 0.5  | 200       | ![edge 2](edge-0.5-200.png) |
+| 0.6  | 120       | ![edge 3](edge-0.6-120.png) |
+| 1    | 200       | ![edge 4](edge-1-200.png)   |
+| 1    | 255       | ![edge 5](edge-1-255.png)   |
+| 2    | 255       | ![edge 7](edge-2-255.png)   |
+
+### DEPTH
+
+**Reference Image**
+![Reference image](pos-ref.jpeg)
+
+**Prompt**: "batman standing in front of the Whitehouse"
+
+**Negative prompt**: "ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude"
+
+### Results
+
+| DEPTH | RESULTS                   |
+| ----- | ------------------------- |
+| 0.2   | ![depth 1](depth-0.2.png) |
+| 0.6   | ![depth 2](depth-0.6.png) |
+| 1     | ![depth 3](depth-1.png)   |
+| 1.5   | ![depth 3](depth-1.5.png) |
+| 2     | ![depth 3](depth-2.png)   |
