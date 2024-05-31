@@ -24,13 +24,13 @@
 
 ### Results
 
-| STEPS | RESULTS                  |
-| ----- | ------------------------ |
-| 10    | ![Step 10](step-10.jpeg) |
-| 15    | ![Step 10](step-15.jpeg) |
-| 20    | ![Step 10](step-20.jpeg) |
-| 25    | ![Step 10](step-25.jpeg) |
-| 30    | ![Step 10](step-30.jpeg) |
+| STEPS | RESULTS                                |
+| ----- | -------------------------------------- |
+| 10    | <img src="step-10.jpeg"  width="300"/> |
+| 15    | <img src="step-15.jpeg"  width="300"/> |
+| 20    | <img src="step-20.jpeg"  width="300"/> |
+| 25    | <img src="step-25.jpeg"  width="300"/> |
+| 30    | <img src="step-30.jpeg"  width="300"/> |
 
 ## Image-to-image Variation
 
@@ -56,13 +56,13 @@
 
 ### Results
 
-| STRENGTH | RESULTS                           |
-| -------- | --------------------------------- |
-| 20       | ![Strength 20](strength-20.png)   |
-| 40       | ![Strength 40](strength-40.png)   |
-| 60       | ![Strength 60](strength-60.png)   |
-| 80       | ![Strength 80](strength-80.png)   |
-| 100      | ![Strength 100](strength-100.png) |
+| STRENGTH | RESULTS                                    |
+| -------- | ------------------------------------------ |
+| 20       | <img src="strength-20.png"  width="300"/>  |
+| 40       | <img src="strength-40.png"  width="300"/>  |
+| 60       | <img src="strength-60.png"  width="300"/>  |
+| 80       | <img src="strength-80.png"  width="300"/>  |
+| 100      | <img src="strength-100.png"  width="300"/> |
 
 ## Control Traits in Image Generation
 
@@ -85,7 +85,7 @@
 ### Pose
 
 **Reference Image**
-![Reference image](pose-ref.jpeg)
+<img src="pos-ref.jpeg"  width="300"/>
 
 **Prompt**: "A steampunk sci-fi warrior stands in front of a destroyed city with a post-apocalyptic atmosphere and dramatic lighting."
 
@@ -93,17 +93,18 @@
 
 ### Results
 
-| WEIGHT | RESULTS                       |
-| ------ | ----------------------------- |
-| 0.2    | ![Weight 0.2](weight-0.2.png) |
-| 0.8    | ![Weight 0.8](weight-0.8.png) |
-| 1.2    | ![Weight 1.2](weight-1.2.png) |
-| 2      | ![Weight 2](weight-2.png)     |
+| WEIGHT | RESULTS                                  |
+| ------ | ---------------------------------------- |
+| 0.2    | <img src="weight-0.2.png"  width="300"/> |
+| 0.8    | <img src="weight-0.8.png"  width="300"/> |
+| 1.2    | <img src="weight-1.2.png"  width="300"/> |
+| 2      | <img src="weight-2.png"  width="300"/>   |
 
 ### Edge
 
 **Reference Image**
-![Reference image](edge-ref.jpg)
+
+<img src="edge-ref.jpg"  width="300"/>
 
 **Prompt**: "Portrait of a steampunk sci-fi warrior wearing a gas mask in a destroyed city in the background."
 
@@ -111,19 +112,20 @@
 
 ### Results
 
-| EDGE | THRESHOLD | RESULTS                     |
-| ---- | --------- | --------------------------- |
-| 0.2  | 139       | ![edge 1](edge-0.2-139.png) |
-| 0.5  | 200       | ![edge 2](edge-0.5-200.png) |
-| 0.6  | 120       | ![edge 3](edge-0.6-120.png) |
-| 1    | 200       | ![edge 4](edge-1-200.png)   |
-| 1    | 255       | ![edge 5](edge-1-255.png)   |
-| 2    | 255       | ![edge 7](edge-2-255.png)   |
+| EDGE | THRESHOLD | RESULTS                                    |
+| ---- | --------- | ------------------------------------------ |
+| 0.2  | 139       | <img src="edge-0.2-139.png"  width="300"/> |
+| 0.5  | 200       | <img src="edge-0.5-200.png"  width="300"/> |
+| 0.6  | 120       | <img src="edge-0.6-120.png"  width="300"/> |
+| 1    | 200       | <img src="edge-1-200.png"  width="300"/>   |
+| 1    | 255       | <img src="edge-1-255.png"  width="300"/>   |
+| 2    | 255       | <img src="edge-2-255.png"  width="300"/>   |
 
 ### DEPTH
 
 **Reference Image**
-![Reference image](pos-ref.jpeg)
+
+<img src="pose-ref.jpeg" width="300"/>
 
 **Prompt**: "batman standing in front of the Whitehouse"
 
@@ -131,13 +133,13 @@
 
 ### Results
 
-| DEPTH | RESULTS                   |
-| ----- | ------------------------- |
-| 0.2   | ![depth 1](depth-0.2.png) |
-| 0.6   | ![depth 2](depth-0.6.png) |
-| 1     | ![depth 3](depth-1.png)   |
-| 1.5   | ![depth 3](depth-1.5.png) |
-| 2     | ![depth 3](depth-2.png)   |
+| DEPTH | RESULTS                                |
+| ----- | -------------------------------------- |
+| 0.2   | <img src="depth-0.2.png" width="300"/> |
+| 0.6   | <img src="depth-0.6.png" width="300"/> |
+| 1     | <img src="depth-1.png" width="300"/>   |
+| 1.5   | <img src="depth-1.5.png" width="300"/> |
+| 2     | <img src="depth-2.png" width="300"/>   |
 
 ## Reverse Prompting
 
@@ -150,10 +152,12 @@
 **Model**: Playground 2.5
 
 **Reference Image**
-![Reference image](boy-ref.png)
+
+<img src="boy-ref.png" width="400"/>
 
 **Reverse Prompt Image**
-![Reference image](boy-reverse.png)
+
+<img src="boy-reverse.png" width="400"/>
 
 **Prompt**: "Pixar animated soft 3d character, Pixar 3d style, Closeup shot of a sweet cheerful boy with a big smile facing front, visible teeth, wearing a red puffy hoodie jacked charcoal grey undershirt, with a backpack with a black strap, brown messy hair, big brown expressive eyes, black background, intense flames in blurred background, face lit up by fire."
 
@@ -166,10 +170,12 @@
 **Model**: Playground 2.5
 
 **Reference Image**
-![Reference image](noodles-ref.png)
+
+<img src="noodles-ref.png" width="400"/>
 
 **Reverse Prompt Image**
-![Reference image](noodles-reverse.png)
+
+<img src="noodles-reverse.png" width="400"/>
 
 **Prompt**: "Top view shot, lots of white spaghetti with small green herbs on the spaghetti, served in a two-handled white ceramic bowl, a spoon placed inside the spaghetti, bowl is placed on a marble countertop"
 
@@ -182,10 +188,12 @@
 **Model**: Playground 2.5
 
 **Reference Image**
-![Reference image](painting-ref.jpg)
+
+<img src="painting-ref.jpg" width="400"/>
 
 **Reverse Prompt Image**
-![Reference image](painting-reverse.png)
+
+<img src="painting-reverse.png" width="400"/>
 
 **Prompt**: "japanese animated long shot of a couple holding hands and walking away from the shot. The boy is wearing a red jacket, the girl is wearing a light blue dress . Two snowclad Mountain peaks in the background, green pasture and flowers on both the sides with cherry blossom trees. Pink flowers on the side closer to the shot."
 
