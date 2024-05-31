@@ -63,3 +63,39 @@
 | 60       | ![Strength 60](strength-60.png)   |
 | 80       | ![Strength 80](strength-80.png)   |
 | 100      | ![Strength 100](strength-100.png) |
+
+## Control Traits in Image Generation
+
+**Task**: Generate images with specific control over traits (pose, edge, depth), adjusting the influence of each trait.
+
+**Tool used**: [Playground](https://playground.com/)
+
+**Filter**: RealVis XL
+
+**Model**: Stable Diffusion XL
+
+**Prompt Guidance**: 7
+
+**Refinement**: 64
+
+**Seed**: 368710
+
+**Sampler**: DPM++ 2M Karras
+
+### Pose
+
+**Reference Image**
+![Reference image](pose-ref.jpeg)
+
+**Prompt**: "A steampunk sci-fi warrior stands in front of a destroyed city with a post-apocalyptic atmosphere and dramatic lighting."
+
+**Negative prompt**: "ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude"
+
+### Results
+
+| WEIGHT | RESULTS                       |
+| ------ | ----------------------------- |
+| 0.2    | ![Weight 0.2](weight-0.2.png) |
+| 0.8    | ![Weight 0.8](weight-0.8.png) |
+| 1.2    | ![Weight 1.2](weight-1.2.png) |
+| 2      | ![Weight 2](weight-2.png)     |
