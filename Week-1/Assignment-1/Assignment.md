@@ -198,3 +198,45 @@
 **Prompt**: "japanese animated long shot of a couple holding hands and walking away from the shot. The boy is wearing a red jacket, the girl is wearing a light blue dress . Two snowclad Mountain peaks in the background, green pasture and flowers on both the sides with cherry blossom trees. Pink flowers on the side closer to the shot."
 
 **Negative prompt**: "ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude"
+
+## In painting an out painting
+
+**Task**: Generate images that fill in missing parts (inpainting) or extend the borders (outpainting)
+
+**Tool used**: [Playground](https://playground.com/)
+
+**Model**: Stable Diffusion XL
+
+**Prompt Guidance**: 7
+
+**Refinement**: 64
+
+**Sampler**: DPM++ 2M Karras
+
+**Prompt**: "Realistic portrait of elon musk with a monkey on his shoulder"
+
+**Negative Prompt**: "ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, nudity, nude"
+
+### Inpainting
+
+**Reference Image**
+
+<img src="inpainting.png" width="300"/>
+
+Add aviators
+
+<img src="inpainting-aviator.png" width="300"/>
+
+Add a hat on monkey's head
+
+<img src="inpainting-hat.png" width="300"/>
+
+Clean shaven Elon's face
+
+<img src="inpainting-cleanshave.png" width="300"/>
+
+### Outpainting
+
+Extended the portrait
+
+<img src="outpainting.png" width="300"/>
