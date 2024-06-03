@@ -85,7 +85,7 @@
 ### Pose
 
 **Reference Image**
-<img src="pos-ref.jpeg"  width="300"/>
+<img src="pose-ref.jpeg"  width="300"/>
 
 **Prompt**: "A steampunk sci-fi warrior stands in front of a destroyed city with a post-apocalyptic atmosphere and dramatic lighting."
 
